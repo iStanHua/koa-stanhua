@@ -1,0 +1,39 @@
+{
+  "name": "koa-stanhua",
+  "version": "1.0.0",
+  "description": "koa mysql sequelize",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon app",
+    "db": "node ./app/extend/dbInit.js",
+    "task": "node ./app/schedule/index.js",
+    "pm2": "pm2 start app"
+  },
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.1.0",
+    "koa-onerror": "^4.0.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "koa-compress": "^2.0.0",
+    "nodemailer": "^4.4.1",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "koa-session2": "^2.2.5",
+    "koa-favicon": "^2.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.17.1",
+    "cheerio": "^1.0.0-rc.2",
+    "koa-cors": "^0.0.16",
+    "koa-favicon": "^2.0.0",
+    "mysql2": "^1.5.1",
+    "node-schedule": "^1.2.5",
+    "nodemon": "^1.14.3",
+    "sequelize": "^4.29.0",
+    "sequelize-fixtures": "^0.7.0",
+    "superagent": "^3.8.1",
+    "superagent-promise": "^1.1.0"
+  }
+}
