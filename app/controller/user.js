@@ -229,6 +229,7 @@ class userController extends Controller {
     }
     this.success(ctx, _body)
   }
+
   /**
    * 用户注册
    *  @param {String} phone     手机号
@@ -260,6 +261,5 @@ class userController extends Controller {
     }
     this.success(ctx, _body)
   }
-
 }
 module.exports = new userController()

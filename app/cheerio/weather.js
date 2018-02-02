@@ -8,6 +8,7 @@ class Weather {
 
     /**
      * 查询天气
+     * @param {String} code 城市英文名称
      */
     async query(code) {
         let _url = this.baseUrl + '/?cf=c&vt=4&cf=c'
