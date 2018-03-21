@@ -3,7 +3,7 @@
 module.exports = {
   production: {
     dialect: 'mysql',
-    database: 'stan_hua_db',
+    database: 'mysql_pj',
     host: 'localhost',
     port: '3306',
     username: 'root',
@@ -13,7 +13,7 @@ module.exports = {
   },
   development: {
     dialect: 'mysql',
-    database: 'stan_hua_db',
+    database: 'mysql_pj',
     host: 'localhost',
     port: '3306',
     username: 'root',

@@ -10,7 +10,7 @@ class Secret {
     /**
      * 加密
      * @param {String|Buffer} data 数据         
-     * @param {String} algorithm   算法  ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512']
+     * @param {String}        algorithm   算法  ['md5', 'sha1', 'sha224', 'sha256', 'sha384', 'sha512']
      * @param {String|Buffer} key  密钥
      */
     Encrypt(data, algorithm, key) {

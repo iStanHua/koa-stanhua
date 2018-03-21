@@ -2,7 +2,7 @@
 const md5 = require('../extend/md5')
 
 module.exports = function (sequelize, DataTypes) {
-  const user = sequelize.define('user', {
+  const User = sequelize.define('user', {
     id: {
       type: DataTypes.BIGINT,
       autoIncrement: true,
@@ -81,10 +81,10 @@ module.exports = function (sequelize, DataTypes) {
       setterMethods: {}
     })
 
-  user.associate = (models => {
+  User.associate = (models => {
     // 一对多关联
-    user.hasMany(models.news)
+    // User.hasMany(models.news)
   })
 
-  return user
+  return User
 }
